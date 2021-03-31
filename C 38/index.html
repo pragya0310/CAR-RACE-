@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src ="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+        <script src ="p5.dom.min.js"></script>
+        <script src ="p5.play.js"></script>
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCp6ja20tANFvp_MeDR_cWMWRvPAGSWDII",
+    authDomain: "muliplayer-game-e43bd.firebaseapp.com",
+    databaseURL: "https://muliplayer-game-e43bd-default-rtdb.firebaseio.com",
+    projectId: "muliplayer-game-e43bd",
+    storageBucket: "muliplayer-game-e43bd.appspot.com",
+    messagingSenderId: "648258071948",
+    appId: "1:648258071948:web:72c7a7ef2dbf1b94d97aa9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="player.js"></script>
+<script src="form.js"></script>
+<script src="game.js"></script>
+    </head>
+    <body>
+        <script src="sketch.js"></script>
+    </body>
+</html>
