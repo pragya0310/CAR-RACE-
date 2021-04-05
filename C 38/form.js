@@ -21,6 +21,12 @@ display(){
         player.pc(playercount)
         this.msg.html("WELCOME "+n)
         this.msg.position(displayWidth/2-20,displayHeight/2)
+        this.msg.style("color","white")
     })
+}
+hide(){
+    this.nf.hide()
+    this.btn.hide()
+    this.msg.hide()
 }
 }
